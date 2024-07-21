@@ -112,12 +112,14 @@ html{
 
 .links{
     background-color: orangered;
+    margin-right:10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    border-radius:30px;
     height:6vh;
     width:6vh;
-    border-radius:40px;
-    text-align:center;
-    padding:8px;
-    margin-right:10px;
 }
 
 .links:hover{
@@ -129,6 +131,8 @@ html{
     text-decoration:none;
     color:#000;
     font-size:25px;
+    padding:7.5px;
+    
 }
 
 .social_list{
@@ -155,7 +159,7 @@ html{
 }
 
 .image{
-    height:70vh;
+    height:65vh;
     width:40vh;
     border-radius:20px;
 }
@@ -280,9 +284,9 @@ html{
 }
 
 .project_img{
-    height:190px;
+    height:220px;
     border-radius:10px;
-    width:390px;
+    width:425px;
 }
 
 .project_description{
